@@ -1,5 +1,5 @@
 module.exports = {
     filename: 'iview-demo',
-    library: 'iViewDemo',
-    componentName: 'i-demo'
+    componentName: 'i-demo',
+    library: 'iViewDemo'
 };

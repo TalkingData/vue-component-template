@@ -1,17 +1,17 @@
 {
   "name": "iview-demo",
-  "main": "./dist/iview-demo.js",
+  "main": "./dist/iview-demo.min.js",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TalkingData/vue-component-template.git"
+  },
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --content-base test/ --open --inline --hot --compress --history-api-fallback --config build/webpack.dev.config.js",
     "build:style": "gulp --gulpfile build/build-style.js",
     "build:prod": "cross-env NODE_ENV=production webpack --progress --hide-modules --config build/webpack.prod.config.js",
     "build": "npm run build:style && npm run build:prod"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:TalkingData/vue-component-template.git"
   },
   "author": "Aresn",
   "dependencies": {
